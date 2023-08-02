@@ -1,0 +1,362 @@
+/*geral*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+h1,h2,h3{
+  color: #000;
+}
+p{
+  color: #333;
+}
+/*navbar*/
+.navbar-container{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(255, 0, 195);
+  padding: 0 2rem;
+}
+nav{
+  position: relative;
+}
+.navbar-items{
+  position: absolute;
+  right: 0;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  display: inline-block;
+}
+.logo{
+  width: 50px;
+  margin-top: 15px;
+}
+.navbar-items li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 25px;
+}
+.navbar-items a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0,5s;
+}
+.navbar-items a:hover{
+  color: #000;
+}
+.default-btn{
+  padding: 15px 20px;
+  background-color: rgb(255, 0, 195);
+  border-radius: 1dvh;
+}
+.navbar-items .default-btn:hover{
+  background-color:#fff; 
+  color: rgb(255, 0, 195);
+}
+/*main banner*/
+.main-banner{
+  background-image: url("../img/fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0;
+}
+.main-banner h1,
+.main-banner p{
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: #868686a4 3px 2px 3px;
+}
+.main-banner h1{
+  font-size: 54px;
+}
+.main-banner p{
+  font-size: 18px;
+}
+/* services*/
+.services-container{
+  padding: 5rem 0;
+}
+.services-container ul{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.services-container li{
+  flex: 1 1 200px;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+.fas{
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.fa-solid{
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.fa-rocket{
+  color: rgb(255, 0, 195);
+}
+.fa-address-book{
+  color: rgb(255, 0, 195);
+}
+.fa-code{
+  color: rgb(255, 0, 195)
+}
+.services-container h3{
+  margin-bottom: 25px;
+}
+.services-container p{
+  line-height: 24px;
+}
+.icons{
+  font-size: 70px;
+}
+.icons a{
+  color: #000;
+}
+.icons a:hover{
+  color: rgb(255, 0, 195);
+}
+/*projects*/
+.projects-container{
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.projects-container h2{
+  font-size: 36px;
+}
+.projects-container p{
+  font-size: 20px;
+}
+.project-check{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto 0;
+}
+.project{
+  flex: 1;
+  max-width: 400px;
+  margin: 0 20px;
+}
+.project ul{
+  padding: 0;
+}
+.project li{
+  list-style: none;
+  padding: 10px;
+  line-height: 50px;
+  background-color: rgb(255, 0, 195);
+  color: #fff;
+}
+.project .project-name{
+  background-color: #000;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.project .des{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  margin: 0 auto;
+}
+.project .code-btn{
+  background-color:#000 ;
+  width: auto;
+  height: 75px;
+  font-size: 20px;
+  line-height: 15px;
+  cursor: pointer;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project .code-btn:hover{
+  background-color: rgb(255, 0, 195);
+}
+/*contact form*/
+.contact-container{
+  text-align: center;
+  padding: 5rem 0;
+  background-color: rgb(255, 0, 195);
+  color: white;
+}
+.contact{
+  padding: 15px;
+  margin-top: 0;
+}
+.contact-container h2{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.contact-container p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.contact-container .links{
+  margin-top: 10px;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+  display: inline-block;
+
+}
+.contact-container .links a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.contact-container .links a:hover{
+  background-color: black;
+  color: rgb(255, 0, 195);
+}
+footer{
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+/*Page about*/
+
+#me{
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px black;
+}
+.me{
+  padding: 30px;
+  background-color: rgba(255, 0, 195, 0.714);
+  text-align: center;
+  margin: auto;
+}
+.about{
+  padding: 30px;
+  margin: 100px auto;
+  text-align: center;
+}
+.text{
+  text-indent: 20px;
+  margin-bottom: 20px;
+  width: 300px 200px;
+  font-weight: bold;
+  color: #000;
+}
+.about h2{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: rgb(255, 0, 195);
+  text-shadow: 1px 2px 2px rgba(255, 0, 195, 0.412);
+}
+.fa-address-card{
+  color: rgb(255, 0, 195);
+  text-shadow: 1px 2px 2px rgba(255, 0, 195, 0.412);
+  font-size: 25px;
+}
+.fa-bullseye{
+  color: rgb(255, 0, 195);
+  text-shadow: 1px 2px 2px rgba(255, 0, 195, 0.412);
+  font-size: 30px;
+}
+.fa-computer{
+  color: rgb(255, 0, 195);
+  text-shadow: 1px 2px 2px rgba(255, 0, 195, 0.412);
+  font-size: 30px;
+}
+.fa-magnifying-glass{
+  color: rgb(255, 0, 195);
+  text-shadow: 1px 2px 2px rgba(255, 0, 195, 0.412);
+  font-size: 30px;
+}
+.code-btn a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+/*Responsividade*/
+
+/*small laptops a partir de 1100px */
+@media (max-width: 1100px) {
+  .projects-container{
+    width: 95%;
+  }
+  .project{
+    margin: 0 5px;
+  }
+  }
+  /* tablet 900px*/
+  @media (max-width: 900px){
+    .main-banner p{
+      padding: 0 6rem;
+    }
+    .projects-container{
+      width: 100%;
+    }
+    .project-check{
+      width: 350px;
+      flex-direction: column;
+    }
+    .project{
+      margin-top: 10px;
+      width: 400px;
+      width: 100%;
+      max-width: 100%;
+    }
+    
+  }
+  /*celular 576px*/
+  @media (max-width:576px){
+    html,body{
+      overflow-x:hidden ;
+    }
+    .navbar-items li{
+      font-size: 12px;
+      margin-left: 10px;
+    }
+    .services-container ul{
+      flex-direction: column;
+    }
+
+    .projects-container{
+      width: 100%;
+    }
+    .project-check{
+      width: 300px;
+      flex-direction: column;
+    }
+    .project{
+      margin-top: 10px;
+      width: 100%;
+      max-width: 100%;
+    }
+    .contact-container{
+      width: 100%;
+      margin: 0;
+    }
+    .contact-container p{
+      font-size: 15px;
+    }
+    .contact-container .links{
+      flex-direction: column;
+      padding-top: 10px;
+    }
+  }
